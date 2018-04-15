@@ -1,0 +1,184 @@
+.wrapper{
+    max-width: 960px;
+    float: center;
+    margin: auto;
+}
+
+html, body{
+    /* height: 100%;  */
+    margin: 0px;
+    padding: 0px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+body{
+    background: url(../images/darkness/darkness.jpg);
+    max-width: 1500px;
+
+}
+
+header{
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    /* border-style: solid;
+    border-color: #cccccc;
+    border-width: 3px; */
+    position: relative;
+    margin-bottom: 35px;
+    overflow:auto;
+}
+
+img{
+    /* margin-top: 0px;
+    padding: 25px;
+    height: 100px; */
+    width: 100%;
+}
+
+.image {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 25px;
+    
+    border-bottom: 3px solid #cccccc;
+}
+
+.content{
+    background-color: #ffffff;
+    width: 960px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    margin-top: 38px;
+    padding: 25px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.content p {
+    display: block;
+    line-height: 2;
+}
+
+footer{
+    background-color: #666666;
+    /* height: 60px; */
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    padding: 20px 0;
+}
+
+ul{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    float: right;
+}
+
+ul li {
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #cccccc;
+}
+
+ul li:last-of-type {
+    border-right: none;
+}
+
+a{
+    float: left;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    padding: 35px;
+
+}
+
+
+/* CONTACT PAGE STYLES */
+
+form input {
+    display:block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+form textarea {
+    width: 100%;
+    margin: 10px 0;
+}
+
+form input[type=submit] {
+    width: 100px;
+}
+
+.portimage{
+    width: 960px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.middle{
+    background-color: #eeeeee;
+    width: 960px;
+    margin: auto;
+   
+}
+
+#portid{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 25px;
+    font-size: 35px;
+    padding-left: 15px;
+    /* text-align: left; */
+    /* margin-bottom: 25px; */
+    
+    /* border-bottom: 3px solid #cccccc; */
+}
+
+.imagebox{
+    width: 300px;
+    margin: 20px;
+    position: relative;
+    }
+
+.imagebox img{
+    width: 100%;
+
+}
+
+.imagebox span{
+    width: 100%;
+    background-color: #4aaaa5;
+    display: block;
+    text-align: center;
+    padding: 15px 0 ;
+    position: absolute;
+    bottom: 10px;
+    color: #cccccc;
+    font-size: 25px;
+
+}
+
